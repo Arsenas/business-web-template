@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer className="site-footer">
       <div className="container">
-        <p>© 2025 BusinessName. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} BusinessName. All rights reserved.</p>
       </div>
     </footer>
   );
